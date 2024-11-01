@@ -1,0 +1,10 @@
+Elemento 1,Elemento 2,Elemento 3,Elemento 4,Elemento 5,Elemento 6,Elemento 7,Elemento 8,Elemento 9
+COc1ccc(-c2coc3cc(O)c(OC)cc3c2=O)cc1,0.0989,O=c1c(-c2ccc(O)cc2)coc2cc(O)c(O)cc12,0.0993,O=C(/C=C/c1ccc(O)cc1)c1cc(O)c(O)cc1O,0.1033,O=C(/C=C/c1ccc(O)cc1)c1ccc(O)cc1O,,
+COc1ccc(-c2coc3cc(O)c(OC)cc3c2=O)cc1,0.0989,O=c1c(-c2ccc(O)cc2)coc2cc(O)c(O)cc12,0.1011,O=c1c(-c2ccc(O)cc2)coc2cc(O)ccc12,0.1005,O=C(/C=C/c1ccc(O)cc1)c1ccc(O)cc1O,,
+COc1ccc(-c2coc3cc(O)c(OC)cc3c2=O)cc1,0.1050,COc1ccc(-c2coc3cc(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)c(OC)cc3c2=O)cc1,0.1011,COc1ccc(-c2coc3cc(O[C@@H]4O[C@H](COC(=O)CC(=O)O)[C@@H](O)[C@H](O)[C@H]4O)c(OC)cc3c2=O)cc1,0.0916,O=C(O)CC(=O)O,,
+COc1ccc(-c2coc3cc(O)c(OC)cc3c2=O)cc1,0.0989,COc1ccc(-c2coc3cc(OC4OC(CO)C(O)C(O)C4O)c(OC)cc3c2=O)cc1,0.1025,COc1ccc(-c2coc3cc(O[C@@H]4O[C@H](COC(=O)CC(=O)O)[C@@H](O)[C@H](O)[C@H]4O)c(OC)cc3c2=O)cc1,0.0916,O=C(O)CC(=O)O,,
+COc1ccc(-c2coc3cc(O)c(OC)cc3c2=O)cc1,0.1031,COc1ccc(-c2coc3cc(O)c(O)cc3c2=O)cc1,0.1029,O=c1c(-c2ccc(O)cc2)coc2cc(O)c(O)cc12,0.0993,O=C(/C=C/c1ccc(O)cc1)c1cc(O)c(O)cc1O,0.1033,O=C(/C=C/c1ccc(O)cc1)c1ccc(O)cc1O
+COc1ccc(-c2coc3cc(O)c(OC)cc3c2=O)cc1,0.0989,O=c1c(-c2ccc(O)cc2)coc2cc(O)c(O)cc12,0.1000,O=C1c2cc(O)c(O)cc2OC(O)C1c1ccc(O)cc1,0.1003,O=C(/C=C/c1ccc(O)cc1)c1cc(O)c(O)cc1O,0.1033,O=C(/C=C/c1ccc(O)cc1)c1ccc(O)cc1O
+COc1ccc(-c2coc3cc(O)c(OC)cc3c2=O)cc1,0.0989,O=c1c(-c2ccc(O)cc2)coc2cc(O)c(O)cc12,0.0967,O=C1c2cc(O)c(O)cc2OCC1c1ccc(O)cc1,0.1019,O=C(/C=C/c1ccc(O)cc1)c1cc(O)c(O)cc1O,0.1033,O=C(/C=C/c1ccc(O)cc1)c1ccc(O)cc1O
+COc1ccc(-c2coc3cc(O)c(OC)cc3c2=O)cc1,0.0978,COc1ccc(-c2coc3cc(OC)c(O)cc3c2=O)cc1,0.0980,O=c1c(-c2ccc(O)cc2)coc2cc(O)c(O)cc12,0.0993,O=C(/C=C/c1ccc(O)cc1)c1cc(O)c(O)cc1O,0.1033,O=C(/C=C/c1ccc(O)cc1)c1ccc(O)cc1O
+COc1ccc(-c2coc3cc(O)c(OC)cc3c2=O)cc1,0.0956,COc1ccc(-c2coc3cc(O)c(OC)cc3c2=O)cc1O,0.0976,O=c1c(-c2ccc(O)c(O)c2)coc2cc(O)c(O)cc12,0.0995,O=C(/C=C/c1ccc(O)c(O)c1)c1cc(O)c(O)cc1O,0.1008,O=C(/C=C/c1ccc(O)cc1)c1ccc(O)cc1O

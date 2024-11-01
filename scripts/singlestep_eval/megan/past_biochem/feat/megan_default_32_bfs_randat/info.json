@@ -1,0 +1,13 @@
+{
+  "description": "Graph representation of molecules with discrete node and edge features for MEGAN",
+  "features": [
+    "atom",
+    "bond"
+  ],
+  "features_type": [
+    "atom",
+    "bond"
+  ],
+  "max_n_nodes": 256,
+  "format": "sparse"
+}

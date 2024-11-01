@@ -1,0 +1,19 @@
+Evaluation on test set (default split)
+Beam size = 10, batch size = 10, max gen steps = 16
+Avg incorrect reactions in Top 10: 0.0000%
+Avg duplicate reactions in Top 10: 10.7227%
+Avg number of predictions per target: 9.2980
+Targets with < 10 predictions: 24.8000%
+Targets with zero predictions: 0.2000%
+Total evaluation time on 1000 targets: 57.1431 seconds (0.0571 seconds per target, 162.7143 reactions per second) 
+
+Top   1: 24.7000% cum 24.7000%
+Top   2:  8.5000% cum 33.2000%
+Top   3:  4.8000% cum 38.0000%
+Top   4:  3.6000% cum 41.6000%
+Top   5:  2.1000% cum 43.7000%
+Top   6:  1.2000% cum 44.9000%
+Top   7:  1.1000% cum 46.0000%
+Top   8:  0.5000% cum 46.5000%
+Top   9:  0.7000% cum 47.2000%
+Top  10:  0.3000% cum 47.5000%

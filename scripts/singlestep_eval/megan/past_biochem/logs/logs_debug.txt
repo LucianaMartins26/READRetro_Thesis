@@ -1,0 +1,697 @@
+2023-01-28 12:58:26,939 - root - DEBUG - Logging configured!
+2023-01-28 12:58:26,940 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 4
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 12:58:26,941 - __main__ - INFO - Creating model...
+2023-01-28 12:58:31,855 - __main__ - INFO - Loading data...
+2023-01-28 12:58:31,855 - __main__ - INFO - Training for maximum of 1000 epochs...
+2023-01-28 12:58:31,855 - __main__ - INFO - Loading data
+2023-01-28 12:58:34,413 - __main__ - INFO - Training on chunk of 85889 training samples and 979 valid samples
+2023-01-28 12:58:34,413 - __main__ - INFO - Starting training on epoch 1 with Learning Rate=0.0 (1 warmup epochs)
+2023-01-28 13:06:40,635 - root - DEBUG - Logging configured!
+2023-01-28 13:06:40,636 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 36
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 13:06:40,637 - __main__ - INFO - Creating model...
+2023-01-28 13:06:43,311 - __main__ - INFO - Loading data...
+2023-01-28 13:06:43,311 - __main__ - INFO - Training for maximum of 1000 epochs...
+2023-01-28 13:06:43,312 - __main__ - INFO - Loading data
+2023-01-28 13:06:45,120 - __main__ - INFO - Training on chunk of 85889 training samples and 979 valid samples
+2023-01-28 13:06:45,121 - __main__ - INFO - Starting training on epoch 1 with Learning Rate=0.0 (1 warmup epochs)
+2023-01-28 13:06:46,072 - __main__ - WARNING - Exception while running batch: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 23.70 GiB total capacity; 21.90 GiB already allocated; 12.81 MiB free; 22.37 GiB reserved in total by PyTorch)
+2023-01-28 13:07:27,442 - root - DEBUG - Logging configured!
+2023-01-28 13:07:27,442 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 36
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 13:07:27,444 - __main__ - INFO - Creating model...
+2023-01-28 13:07:30,141 - __main__ - INFO - Loading data...
+2023-01-28 13:07:30,141 - __main__ - INFO - Training for maximum of 1000 epochs...
+2023-01-28 13:07:30,142 - __main__ - INFO - Loading data
+2023-01-28 13:07:31,959 - __main__ - INFO - Training on chunk of 85889 training samples and 979 valid samples
+2023-01-28 13:07:31,959 - __main__ - INFO - Starting training on epoch 1 with Learning Rate=0.0 (1 warmup epochs)
+2023-01-28 13:07:32,849 - __main__ - WARNING - Exception while running batch: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 23.70 GiB total capacity; 21.90 GiB already allocated; 14.81 MiB free; 22.37 GiB reserved in total by PyTorch)
+2023-01-28 13:08:58,544 - root - DEBUG - Logging configured!
+2023-01-28 13:08:58,544 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 36
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 13:08:58,546 - __main__ - INFO - Creating model...
+2023-01-28 13:09:01,161 - __main__ - INFO - Loading data...
+2023-01-28 13:09:01,161 - __main__ - INFO - Training for maximum of 1000 epochs...
+2023-01-28 13:09:01,162 - __main__ - INFO - Loading data
+2023-01-28 13:09:02,998 - __main__ - INFO - Training on chunk of 85889 training samples and 979 valid samples
+2023-01-28 13:09:02,998 - __main__ - INFO - Starting training on epoch 1 with Learning Rate=0.0 (1 warmup epochs)
+2023-01-28 13:09:11,332 - __main__ - WARNING - Exception while running batch: Caught RuntimeError in replica 1 on device 1.
+Original Traceback (most recent call last):
+  File "/home/taein/oddments/anaconda3/envs/megan/lib/python3.6/site-packages/torch/nn/parallel/parallel_apply.py", line 61, in _worker
+    output = module(*input, **kwargs)
+  File "/home/taein/oddments/anaconda3/envs/megan/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/taein/Retrosynthesis/megan/src/model/megan.py", line 125, in forward
+    step_results = self.forward_step(step_batch, state_dict=state_dict)
+  File "/home/taein/Retrosynthesis/megan/src/model/megan.py", line 147, in forward_step
+    step_batch = self._preprocess(step_batch)
+  File "/home/taein/Retrosynthesis/megan/src/model/megan.py", line 73, in _preprocess
+    oh_feat = to_one_hot(x['node_features'][:, :, i], dims=len(self.prop2oh['atom'][key]) + 1)
+  File "/home/taein/Retrosynthesis/megan/src/model/megan.py", line 21, in to_one_hot
+    target = one_hot.scatter_(x.dim() - 1, x.data, 1)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cuda:1!
+
+2023-01-28 13:10:25,856 - root - DEBUG - Logging configured!
+2023-01-28 13:10:25,856 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 36
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 13:10:25,858 - __main__ - INFO - Creating model...
+2023-01-28 13:10:28,446 - __main__ - INFO - Loading data...
+2023-01-28 13:10:28,447 - __main__ - INFO - Training for maximum of 1000 epochs...
+2023-01-28 13:10:28,447 - __main__ - INFO - Loading data
+2023-01-28 13:10:30,245 - __main__ - INFO - Training on chunk of 85889 training samples and 979 valid samples
+2023-01-28 13:10:30,245 - __main__ - INFO - Starting training on epoch 1 with Learning Rate=0.0 (1 warmup epochs)
+2023-01-28 13:10:38,500 - __main__ - WARNING - Exception while running batch: Caught RuntimeError in replica 1 on device 1.
+Original Traceback (most recent call last):
+  File "/home/taein/oddments/anaconda3/envs/megan/lib/python3.6/site-packages/torch/nn/parallel/parallel_apply.py", line 61, in _worker
+    output = module(*input, **kwargs)
+  File "/home/taein/oddments/anaconda3/envs/megan/lib/python3.6/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/taein/Retrosynthesis/megan/src/model/megan.py", line 125, in forward
+    step_results = self.forward_step(step_batch, state_dict=state_dict)
+  File "/home/taein/Retrosynthesis/megan/src/model/megan.py", line 147, in forward_step
+    step_batch = self._preprocess(step_batch)
+  File "/home/taein/Retrosynthesis/megan/src/model/megan.py", line 73, in _preprocess
+    oh_feat = to_one_hot(x['node_features'][:, :, i], dims=len(self.prop2oh['atom'][key]) + 1)
+  File "/home/taein/Retrosynthesis/megan/src/model/megan.py", line 21, in to_one_hot
+    target = one_hot.scatter_(x.dim() - 1, x.data, 1)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cuda:1!
+
+2023-01-28 13:11:07,018 - root - DEBUG - Logging configured!
+2023-01-28 13:11:07,018 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 12
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 13:11:07,020 - __main__ - INFO - Creating model...
+2023-01-28 13:11:09,742 - __main__ - INFO - Loading data...
+2023-01-28 13:11:09,743 - __main__ - INFO - Training for maximum of 1000 epochs...
+2023-01-28 13:11:09,743 - __main__ - INFO - Loading data
+2023-01-28 13:11:11,603 - __main__ - INFO - Training on chunk of 85889 training samples and 979 valid samples
+2023-01-28 13:11:11,603 - __main__ - INFO - Starting training on epoch 1 with Learning Rate=0.0 (1 warmup epochs)
+2023-01-28 13:11:16,891 - __main__ - WARNING - Exception while running batch: CUDA out of memory. Tried to allocate 70.00 MiB (GPU 0; 23.70 GiB total capacity; 21.62 GiB already allocated; 44.81 MiB free; 22.33 GiB reserved in total by PyTorch)
+2023-01-28 13:11:29,270 - root - DEBUG - Logging configured!
+2023-01-28 13:11:29,270 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 8
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 13:11:29,272 - __main__ - INFO - Creating model...
+2023-01-28 13:11:31,988 - __main__ - INFO - Loading data...
+2023-01-28 13:11:31,989 - __main__ - INFO - Training for maximum of 1000 epochs...
+2023-01-28 13:11:31,990 - __main__ - INFO - Loading data
+2023-01-28 13:11:33,862 - __main__ - INFO - Training on chunk of 85889 training samples and 979 valid samples
+2023-01-28 13:11:33,863 - __main__ - INFO - Starting training on epoch 1 with Learning Rate=0.0 (1 warmup epochs)
+2023-01-28 13:11:38,371 - __main__ - WARNING - Exception while running batch: CUDA out of memory. Tried to allocate 1.01 GiB (GPU 0; 23.70 GiB total capacity; 21.38 GiB already allocated; 370.81 MiB free; 22.01 GiB reserved in total by PyTorch)
+2023-01-28 13:12:31,506 - root - DEBUG - Logging configured!
+2023-01-28 13:12:31,506 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 4
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 13:12:31,508 - __main__ - INFO - Creating model...
+2023-01-28 13:12:34,125 - __main__ - INFO - Loading data...
+2023-01-28 13:12:34,125 - __main__ - INFO - Training for maximum of 1000 epochs...
+2023-01-28 13:12:34,126 - __main__ - INFO - Loading data
+2023-01-28 13:12:35,940 - __main__ - INFO - Training on chunk of 85889 training samples and 979 valid samples
+2023-01-28 13:12:35,941 - __main__ - INFO - Starting training on epoch 1 with Learning Rate=0.0 (1 warmup epochs)
+2023-01-28 13:15:12,565 - root - DEBUG - Logging configured!
+2023-01-28 13:15:12,566 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 4
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 13:15:12,567 - __main__ - INFO - Creating model...
+2023-01-28 13:15:35,058 - root - DEBUG - Logging configured!
+2023-01-28 13:15:35,058 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 4
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 13:15:35,060 - __main__ - INFO - Creating model...
+2023-01-28 13:15:56,360 - root - DEBUG - Logging configured!
+2023-01-28 13:15:56,360 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 4
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 13:15:56,362 - __main__ - INFO - Creating model...
+2023-01-28 13:15:59,014 - __main__ - INFO - Loading data...
+2023-01-28 13:15:59,014 - __main__ - INFO - Training for maximum of 1000 epochs...
+2023-01-28 13:15:59,014 - __main__ - INFO - Loading data
+2023-01-28 13:16:00,820 - __main__ - INFO - Training on chunk of 85889 training samples and 979 valid samples
+2023-01-28 13:16:00,820 - __main__ - INFO - Starting training on epoch 1 with Learning Rate=0.0 (1 warmup epochs)
+2023-01-28 13:16:02,281 - __main__ - WARNING - Exception while running batch: Expected tensor for 'out' to have the same device as tensor for argument #3 'mat2'; but device 0 does not equal 5 (while checking arguments for addmm)
+2023-01-28 13:16:24,423 - root - DEBUG - Logging configured!
+2023-01-28 13:16:24,423 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 4
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 13:16:24,425 - __main__ - INFO - Creating model...
+2023-01-28 13:16:27,117 - __main__ - INFO - Loading data...
+2023-01-28 13:16:27,117 - __main__ - INFO - Training for maximum of 1000 epochs...
+2023-01-28 13:16:27,118 - __main__ - INFO - Loading data
+2023-01-28 13:16:28,967 - __main__ - INFO - Training on chunk of 85889 training samples and 979 valid samples
+2023-01-28 13:16:28,967 - __main__ - INFO - Starting training on epoch 1 with Learning Rate=0.0 (1 warmup epochs)
+2023-01-28 13:22:07,255 - __main__ - WARNING - Exception while running batch: CUDA out of memory. Tried to allocate 1.01 GiB (GPU 0; 23.70 GiB total capacity; 20.83 GiB already allocated; 558.81 MiB free; 21.83 GiB reserved in total by PyTorch)
+2023-01-28 13:47:46,513 - root - DEBUG - Logging configured!
+2023-01-28 13:47:46,513 - src.utils.dispatch_utils - INFO - gin-bound config values:
+get_dataset.dataset_key = biochem
+train_megan.featurizer_key = megan_32_bfs_randat
+train_megan.max_n_epochs = 1000
+train_megan.train_samples_per_epoch = 20000
+train_megan.valid_samples_per_epoch = 5000
+train_megan.batch_size = 2
+train_megan.learning_rate = 0.0001
+train_megan.gen_lr_factor = 0.05
+train_megan.gen_lr_patience = 6
+train_megan.early_stopping = 16
+train_megan.start_epoch = 0
+train_megan.megan_warmup_epochs = 1
+Megan.reaction_type_given = False
+Megan.bond_emb_dim = 32
+Megan.hidden_dim = 1024
+Megan.stateful = True
+Megan.n_reaction_types = 10
+Megan.reaction_type_emb_dim = 16
+Megan.atom_feature_keys = ['is_supernode', 'atomic_num', 'formal_charge', 'chiral_tag', 'num_explicit_hs', 'is_aromatic']
+Megan.bond_feature_keys = ['bond_type', 'bond_stereo']
+MeganEncoder.n_encoder_conv = 6
+MeganEncoder.enc_residual = True
+MeganEncoder.enc_dropout = 0.0
+MeganDecoder.n_decoder_conv = 2
+MeganDecoder.dec_residual = True
+MeganDecoder.n_fc = 2
+MeganDecoder.atom_fc_hidden_dim = 128
+MeganDecoder.bond_fc_hidden_dim = 128
+MeganDecoder.bond_atom_dim = 128
+MeganDecoder.dec_dropout = 0.0
+MultiHeadGraphConvLayer.att_heads = 8
+MultiHeadGraphConvLayer.att_dim = 128
+2023-01-28 13:47:46,514 - __main__ - INFO - Creating model...
+2023-01-28 13:47:48,540 - __main__ - INFO - Loading data...
+2023-01-28 13:47:48,541 - __main__ - INFO - Training for maximum of 1000 epochs...
+2023-01-28 13:47:48,541 - __main__ - INFO - Loading data
+2023-01-28 13:47:50,403 - __main__ - INFO - Training on chunk of 85889 training samples and 979 valid samples
+2023-01-28 13:47:50,403 - __main__ - INFO - Starting training on epoch 1 with Learning Rate=0.0 (1 warmup epochs)
+2023-01-28 14:14:04,688 - __main__ - INFO - train epoch 1: step_acc=0.2147, step_acc_hard=0.1001, step_acc_easy=0.2692, acc=0.0126, loss=3.3676
+2023-01-28 14:15:50,914 - __main__ - INFO - valid epoch 1: step_acc=0.2791, step_acc_hard=0.1741, step_acc_easy=0.3240, acc=0.0640, loss=2.6316
+2023-01-28 14:15:51,000 - __main__ - INFO - Saving best model from epoch 1 to models/biochem/model_best.pt (acc=0.064)
+2023-01-28 14:15:51,154 - __main__ - INFO - Learning rate set to 0.0001 after 1 warmup epochs
+2023-01-28 14:43:30,978 - __main__ - INFO - train epoch 2: step_acc=0.3548, step_acc_hard=0.2049, step_acc_easy=0.4138, acc=0.0854, loss=2.1638
+2023-01-28 14:45:17,177 - __main__ - INFO - valid epoch 2: step_acc=0.4132, step_acc_hard=0.2403, step_acc_easy=0.4730, acc=0.1126, loss=2.0383
+2023-01-28 14:45:17,186 - __main__ - INFO - Saving best model from epoch 2 to models/biochem/model_best.pt (acc=0.1126)
+2023-01-28 15:12:52,427 - __main__ - INFO - train epoch 3: step_acc=0.4560, step_acc_hard=0.2524, step_acc_easy=0.5240, acc=0.1144, loss=1.6768
+2023-01-28 15:14:39,049 - __main__ - INFO - valid epoch 3: step_acc=0.4985, step_acc_hard=0.2782, step_acc_easy=0.5705, acc=0.1442, loss=1.5648
+2023-01-28 15:14:39,058 - __main__ - INFO - Saving best model from epoch 3 to models/biochem/model_best.pt (acc=0.1442)
+2023-01-28 15:42:43,205 - __main__ - INFO - train epoch 4: step_acc=0.5268, step_acc_hard=0.2828, step_acc_easy=0.6048, acc=0.1333, loss=1.3881
+2023-01-28 15:45:02,040 - __main__ - INFO - valid epoch 4: step_acc=0.5420, step_acc_hard=0.2821, step_acc_easy=0.6220, acc=0.1464, loss=1.3783
+2023-01-28 15:45:02,068 - __main__ - INFO - Saving best model from epoch 4 to models/biochem/model_best.pt (acc=0.1464)
+2023-01-28 16:16:37,115 - __main__ - INFO - train epoch 5: step_acc=0.5637, step_acc_hard=0.3053, step_acc_easy=0.6439, acc=0.1461, loss=1.2135
+2023-01-28 16:19:03,442 - __main__ - INFO - valid epoch 5: step_acc=0.5573, step_acc_hard=0.3043, step_acc_easy=0.6365, acc=0.1548, loss=1.3133
+2023-01-28 16:19:03,452 - __main__ - INFO - Saving best model from epoch 5 to models/biochem/model_best.pt (acc=0.1548)
+2023-01-28 16:50:57,859 - __main__ - INFO - train epoch 6: step_acc=0.5867, step_acc_hard=0.3202, step_acc_easy=0.6700, acc=0.1610, loss=1.1350
+2023-01-28 16:53:24,764 - __main__ - INFO - valid epoch 6: step_acc=0.5740, step_acc_hard=0.3109, step_acc_easy=0.6541, acc=0.1544, loss=1.2127
+2023-01-28 17:25:08,371 - __main__ - INFO - train epoch 7: step_acc=0.6036, step_acc_hard=0.3375, step_acc_easy=0.6862, acc=0.1683, loss=1.0599
+2023-01-28 17:27:21,860 - __main__ - INFO - valid epoch 7: step_acc=0.6007, step_acc_hard=0.3075, step_acc_easy=0.6925, acc=0.1762, loss=1.1453
+2023-01-28 17:27:21,872 - __main__ - INFO - Saving best model from epoch 7 to models/biochem/model_best.pt (acc=0.1762)
+2023-01-28 17:59:14,062 - __main__ - INFO - train epoch 8: step_acc=0.6164, step_acc_hard=0.3422, step_acc_easy=0.7016, acc=0.1757, loss=1.0135
+2023-01-28 18:01:02,022 - __main__ - INFO - valid epoch 8: step_acc=0.5978, step_acc_hard=0.3255, step_acc_easy=0.6816, acc=0.1704, loss=1.1197
+2023-01-28 18:32:46,425 - __main__ - INFO - train epoch 9: step_acc=0.6298, step_acc_hard=0.3610, step_acc_easy=0.7110, acc=0.1845, loss=0.9669
+2023-01-28 18:34:34,110 - __main__ - INFO - valid epoch 9: step_acc=0.6097, step_acc_hard=0.3452, step_acc_easy=0.6939, acc=0.1830, loss=1.0901
+2023-01-28 18:34:34,119 - __main__ - INFO - Saving best model from epoch 9 to models/biochem/model_best.pt (acc=0.183)
+2023-01-28 19:06:14,283 - __main__ - INFO - train epoch 10: step_acc=0.6373, step_acc_hard=0.3603, step_acc_easy=0.7237, acc=0.1898, loss=0.9367
+2023-01-28 19:07:59,599 - __main__ - INFO - valid epoch 10: step_acc=0.6116, step_acc_hard=0.3423, step_acc_easy=0.6944, acc=0.1680, loss=1.0528
+2023-01-28 19:36:32,744 - __main__ - INFO - train epoch 11: step_acc=0.6433, step_acc_hard=0.3753, step_acc_easy=0.7255, acc=0.1926, loss=0.9263
+2023-01-28 19:38:48,625 - __main__ - INFO - valid epoch 11: step_acc=0.6318, step_acc_hard=0.3516, step_acc_easy=0.7189, acc=0.1854, loss=1.0333
+2023-01-28 19:38:48,635 - __main__ - INFO - Saving best model from epoch 11 to models/biochem/model_best.pt (acc=0.1854)
+2023-01-28 20:08:02,070 - __main__ - INFO - train epoch 12: step_acc=0.6514, step_acc_hard=0.3814, step_acc_easy=0.7329, acc=0.1993, loss=0.9106
+2023-01-28 20:10:24,755 - __main__ - INFO - valid epoch 12: step_acc=0.6319, step_acc_hard=0.3516, step_acc_easy=0.7173, acc=0.1792, loss=1.0024
+2023-01-28 20:39:36,442 - __main__ - INFO - train epoch 13: step_acc=0.6552, step_acc_hard=0.3823, step_acc_easy=0.7389, acc=0.2064, loss=0.8794
+2023-01-28 20:41:54,926 - __main__ - INFO - valid epoch 13: step_acc=0.6373, step_acc_hard=0.3704, step_acc_easy=0.7196, acc=0.2040, loss=0.9973
+2023-01-28 20:41:54,942 - __main__ - INFO - Saving best model from epoch 13 to models/biochem/model_best.pt (acc=0.204)
+2023-01-28 21:11:32,729 - __main__ - INFO - train epoch 14: step_acc=0.6613, step_acc_hard=0.3867, step_acc_easy=0.7460, acc=0.2013, loss=0.8523
+2023-01-28 21:13:47,559 - __main__ - INFO - valid epoch 14: step_acc=0.6386, step_acc_hard=0.3779, step_acc_easy=0.7183, acc=0.1822, loss=0.9616
+2023-01-28 21:43:34,595 - __main__ - INFO - train epoch 15: step_acc=0.6667, step_acc_hard=0.3957, step_acc_easy=0.7483, acc=0.2034, loss=0.8500
+2023-01-28 21:45:55,356 - __main__ - INFO - valid epoch 15: step_acc=0.6396, step_acc_hard=0.3566, step_acc_easy=0.7325, acc=0.1972, loss=0.9735
+2023-01-28 22:15:45,817 - __main__ - INFO - train epoch 16: step_acc=0.6733, step_acc_hard=0.4055, step_acc_easy=0.7539, acc=0.2223, loss=0.8370
+2023-01-28 22:18:06,171 - __main__ - INFO - valid epoch 16: step_acc=0.6394, step_acc_hard=0.3708, step_acc_easy=0.7245, acc=0.2156, loss=0.9578
+2023-01-28 22:18:06,182 - __main__ - INFO - Saving best model from epoch 16 to models/biochem/model_best.pt (acc=0.2156)
+2023-01-28 22:51:02,179 - __main__ - INFO - train epoch 17: step_acc=0.6778, step_acc_hard=0.4104, step_acc_easy=0.7590, acc=0.2216, loss=0.8141
+2023-01-28 22:53:29,913 - __main__ - INFO - valid epoch 17: step_acc=0.6397, step_acc_hard=0.3549, step_acc_easy=0.7267, acc=0.1952, loss=1.0000
+2023-01-28 23:26:51,499 - __main__ - INFO - train epoch 18: step_acc=0.6807, step_acc_hard=0.4138, step_acc_easy=0.7607, acc=0.2278, loss=0.7956
+2023-01-28 23:29:06,402 - __main__ - INFO - valid epoch 18: step_acc=0.6397, step_acc_hard=0.3601, step_acc_easy=0.7253, acc=0.1968, loss=0.9989
+2023-01-29 00:00:46,177 - __main__ - INFO - train epoch 19: step_acc=0.6856, step_acc_hard=0.4184, step_acc_easy=0.7674, acc=0.2321, loss=0.7800
+2023-01-29 00:02:56,275 - __main__ - INFO - valid epoch 19: step_acc=0.6509, step_acc_hard=0.3826, step_acc_easy=0.7358, acc=0.1940, loss=0.9619
+2023-01-29 00:34:50,547 - __main__ - INFO - train epoch 20: step_acc=0.6891, step_acc_hard=0.4246, step_acc_easy=0.7689, acc=0.2351, loss=0.7721
+2023-01-29 00:36:59,259 - __main__ - INFO - valid epoch 20: step_acc=0.6617, step_acc_hard=0.3944, step_acc_easy=0.7446, acc=0.2166, loss=0.9506
+2023-01-29 00:36:59,268 - __main__ - INFO - Saving best model from epoch 20 to models/biochem/model_best.pt (acc=0.2166)
+2023-01-29 01:08:47,322 - __main__ - INFO - train epoch 21: step_acc=0.6935, step_acc_hard=0.4234, step_acc_easy=0.7740, acc=0.2350, loss=0.7625
+2023-01-29 01:11:02,604 - __main__ - INFO - valid epoch 21: step_acc=0.6667, step_acc_hard=0.4088, step_acc_easy=0.7421, acc=0.2296, loss=0.9292
+2023-01-29 01:11:02,613 - __main__ - INFO - Saving best model from epoch 21 to models/biochem/model_best.pt (acc=0.2296)
+2023-01-29 01:42:31,295 - __main__ - INFO - train epoch 22: step_acc=0.6950, step_acc_hard=0.4278, step_acc_easy=0.7758, acc=0.2341, loss=0.7585
+2023-01-29 01:44:41,173 - __main__ - INFO - valid epoch 22: step_acc=0.6516, step_acc_hard=0.3888, step_acc_easy=0.7348, acc=0.2008, loss=0.9427
+2023-01-29 02:16:34,491 - __main__ - INFO - train epoch 23: step_acc=0.6978, step_acc_hard=0.4356, step_acc_easy=0.7770, acc=0.2402, loss=0.7372
+2023-01-29 02:18:58,182 - __main__ - INFO - valid epoch 23: step_acc=0.6495, step_acc_hard=0.3810, step_acc_easy=0.7314, acc=0.2064, loss=0.9336
+2023-01-29 02:51:33,849 - __main__ - INFO - train epoch 24: step_acc=0.6994, step_acc_hard=0.4412, step_acc_easy=0.7768, acc=0.2456, loss=0.7448
+2023-01-29 02:53:45,380 - __main__ - INFO - valid epoch 24: step_acc=0.6611, step_acc_hard=0.4012, step_acc_easy=0.7426, acc=0.2218, loss=0.8964
+2023-01-29 03:27:18,535 - __main__ - INFO - train epoch 25: step_acc=0.7046, step_acc_hard=0.4501, step_acc_easy=0.7808, acc=0.2532, loss=0.7352
+2023-01-29 03:29:49,419 - __main__ - INFO - valid epoch 25: step_acc=0.6718, step_acc_hard=0.4024, step_acc_easy=0.7567, acc=0.2390, loss=0.8900
+2023-01-29 03:29:49,435 - __main__ - INFO - Saving best model from epoch 25 to models/biochem/model_best.pt (acc=0.239)
+2023-01-29 04:03:16,040 - __main__ - INFO - train epoch 26: step_acc=0.7089, step_acc_hard=0.4496, step_acc_easy=0.7862, acc=0.2511, loss=0.7146
+2023-01-29 04:05:38,896 - __main__ - INFO - valid epoch 26: step_acc=0.6644, step_acc_hard=0.4051, step_acc_easy=0.7441, acc=0.2244, loss=0.9325
+2023-01-29 04:39:44,227 - __main__ - INFO - train epoch 27: step_acc=0.7093, step_acc_hard=0.4452, step_acc_easy=0.7874, acc=0.2480, loss=0.7224
+2023-01-29 04:41:54,535 - __main__ - INFO - valid epoch 27: step_acc=0.6735, step_acc_hard=0.4276, step_acc_easy=0.7489, acc=0.2432, loss=0.9037
+2023-01-29 04:41:54,544 - __main__ - INFO - Saving best model from epoch 27 to models/biochem/model_best.pt (acc=0.2432)
+2023-01-29 05:15:27,403 - __main__ - INFO - train epoch 28: step_acc=0.7116, step_acc_hard=0.4541, step_acc_easy=0.7890, acc=0.2568, loss=0.7105
+2023-01-29 05:17:53,288 - __main__ - INFO - valid epoch 28: step_acc=0.6582, step_acc_hard=0.3854, step_acc_easy=0.7464, acc=0.2108, loss=0.9128
+2023-01-29 05:49:48,382 - __main__ - INFO - train epoch 29: step_acc=0.7147, step_acc_hard=0.4561, step_acc_easy=0.7925, acc=0.2584, loss=0.6965
+2023-01-29 05:52:01,484 - __main__ - INFO - valid epoch 29: step_acc=0.6744, step_acc_hard=0.4113, step_acc_easy=0.7544, acc=0.2232, loss=0.8925
+2023-01-29 06:24:12,731 - __main__ - INFO - train epoch 30: step_acc=0.7187, step_acc_hard=0.4664, step_acc_easy=0.7948, acc=0.2661, loss=0.6818
+2023-01-29 06:26:31,035 - __main__ - INFO - valid epoch 30: step_acc=0.6602, step_acc_hard=0.4193, step_acc_easy=0.7340, acc=0.2118, loss=0.8997
+2023-01-29 06:59:50,898 - __main__ - INFO - train epoch 31: step_acc=0.7260, step_acc_hard=0.4727, step_acc_easy=0.8015, acc=0.2712, loss=0.6718
+2023-01-29 07:02:14,211 - __main__ - INFO - valid epoch 31: step_acc=0.6705, step_acc_hard=0.3976, step_acc_easy=0.7525, acc=0.2264, loss=0.8960
+2023-01-29 07:35:28,363 - __main__ - INFO - train epoch 32: step_acc=0.7263, step_acc_hard=0.4715, step_acc_easy=0.8012, acc=0.2705, loss=0.6606
+2023-01-29 07:37:42,985 - __main__ - INFO - valid epoch 32: step_acc=0.6685, step_acc_hard=0.3977, step_acc_easy=0.7517, acc=0.2208, loss=0.8957
+2023-01-29 08:10:56,979 - __main__ - INFO - train epoch 33: step_acc=0.7256, step_acc_hard=0.4745, step_acc_easy=0.8019, acc=0.2732, loss=0.6535
+2023-01-29 08:13:18,574 - __main__ - INFO - valid epoch 33: step_acc=0.6674, step_acc_hard=0.4126, step_acc_easy=0.7449, acc=0.2144, loss=0.8845
+2023-01-29 08:45:30,172 - __main__ - INFO - train epoch 34: step_acc=0.7311, step_acc_hard=0.4819, step_acc_easy=0.8057, acc=0.2753, loss=0.6505
+2023-01-29 08:47:44,572 - __main__ - INFO - valid epoch 34: step_acc=0.6606, step_acc_hard=0.4127, step_acc_easy=0.7365, acc=0.2344, loss=0.9201
+2023-01-29 08:47:44,583 - __main__ - INFO - Changing Learning Rate to 5e-06
+2023-01-29 09:21:17,064 - __main__ - INFO - train epoch 35: step_acc=0.7459, step_acc_hard=0.4969, step_acc_easy=0.8212, acc=0.2939, loss=0.6077
+2023-01-29 09:23:37,122 - __main__ - INFO - valid epoch 35: step_acc=0.6876, step_acc_hard=0.4313, step_acc_easy=0.7647, acc=0.2494, loss=0.8579
+2023-01-29 09:23:37,131 - __main__ - INFO - Saving best model from epoch 35 to models/biochem/model_best.pt (acc=0.2494)
+2023-01-29 09:55:06,079 - __main__ - INFO - train epoch 36: step_acc=0.7567, step_acc_hard=0.5156, step_acc_easy=0.8292, acc=0.3104, loss=0.5737
+2023-01-29 09:57:24,858 - __main__ - INFO - valid epoch 36: step_acc=0.6885, step_acc_hard=0.4356, step_acc_easy=0.7630, acc=0.2418, loss=0.8873
+2023-01-29 10:29:13,782 - __main__ - INFO - train epoch 37: step_acc=0.7634, step_acc_hard=0.5272, step_acc_easy=0.8345, acc=0.3235, loss=0.5534
+2023-01-29 10:31:21,974 - __main__ - INFO - valid epoch 37: step_acc=0.6965, step_acc_hard=0.4566, step_acc_easy=0.7682, acc=0.2576, loss=0.8857
+2023-01-29 10:31:21,984 - __main__ - INFO - Saving best model from epoch 37 to models/biochem/model_best.pt (acc=0.2576)
+2023-01-29 11:03:32,663 - __main__ - INFO - train epoch 38: step_acc=0.7666, step_acc_hard=0.5279, step_acc_easy=0.8369, acc=0.3250, loss=0.5593
+2023-01-29 11:05:42,772 - __main__ - INFO - valid epoch 38: step_acc=0.6911, step_acc_hard=0.4417, step_acc_easy=0.7675, acc=0.2524, loss=0.8697
+2023-01-29 11:38:50,696 - __main__ - INFO - train epoch 39: step_acc=0.7684, step_acc_hard=0.5348, step_acc_easy=0.8383, acc=0.3217, loss=0.5423
+2023-01-29 11:41:08,286 - __main__ - INFO - valid epoch 39: step_acc=0.7008, step_acc_hard=0.4503, step_acc_easy=0.7771, acc=0.2540, loss=0.8280
+2023-01-29 12:13:25,605 - __main__ - INFO - train epoch 40: step_acc=0.7702, step_acc_hard=0.5335, step_acc_easy=0.8407, acc=0.3313, loss=0.5407
+2023-01-29 12:15:48,382 - __main__ - INFO - valid epoch 40: step_acc=0.7037, step_acc_hard=0.4692, step_acc_easy=0.7746, acc=0.2514, loss=0.8524
+2023-01-29 12:48:14,760 - __main__ - INFO - train epoch 41: step_acc=0.7717, step_acc_hard=0.5424, step_acc_easy=0.8389, acc=0.3342, loss=0.5477
+2023-01-29 12:50:45,867 - __main__ - INFO - valid epoch 41: step_acc=0.6968, step_acc_hard=0.4530, step_acc_easy=0.7709, acc=0.2502, loss=0.8373
+2023-01-29 13:24:26,452 - __main__ - INFO - train epoch 42: step_acc=0.7761, step_acc_hard=0.5447, step_acc_easy=0.8442, acc=0.3381, loss=0.5202
+2023-01-29 13:26:49,954 - __main__ - INFO - valid epoch 42: step_acc=0.6928, step_acc_hard=0.4471, step_acc_easy=0.7677, acc=0.2408, loss=0.8594
+2023-01-29 14:00:10,726 - __main__ - INFO - train epoch 43: step_acc=0.7755, step_acc_hard=0.5407, step_acc_easy=0.8462, acc=0.3351, loss=0.5227
+2023-01-29 14:02:31,970 - __main__ - INFO - valid epoch 43: step_acc=0.6970, step_acc_hard=0.4575, step_acc_easy=0.7722, acc=0.2586, loss=0.8673
+2023-01-29 14:02:31,988 - __main__ - INFO - Saving best model from epoch 43 to models/biochem/model_best.pt (acc=0.2586)
+2023-01-29 14:35:53,334 - __main__ - INFO - train epoch 44: step_acc=0.7799, step_acc_hard=0.5485, step_acc_easy=0.8503, acc=0.3416, loss=0.5131
+2023-01-29 14:38:13,388 - __main__ - INFO - valid epoch 44: step_acc=0.7035, step_acc_hard=0.4566, step_acc_easy=0.7784, acc=0.2616, loss=0.8560
+2023-01-29 14:38:13,404 - __main__ - INFO - Saving best model from epoch 44 to models/biochem/model_best.pt (acc=0.2616)
+2023-01-29 15:11:23,520 - __main__ - INFO - train epoch 45: step_acc=0.7801, step_acc_hard=0.5545, step_acc_easy=0.8479, acc=0.3500, loss=0.5175
+2023-01-29 15:13:26,098 - __main__ - INFO - valid epoch 45: step_acc=0.7020, step_acc_hard=0.4517, step_acc_easy=0.7781, acc=0.2698, loss=0.8451
+2023-01-29 15:13:26,124 - __main__ - INFO - Saving best model from epoch 45 to models/biochem/model_best.pt (acc=0.2698)
+2023-01-29 15:46:25,185 - __main__ - INFO - train epoch 46: step_acc=0.7841, step_acc_hard=0.5583, step_acc_easy=0.8515, acc=0.3482, loss=0.5067
+2023-01-29 15:48:40,254 - __main__ - INFO - valid epoch 46: step_acc=0.6950, step_acc_hard=0.4498, step_acc_easy=0.7704, acc=0.2610, loss=0.8735
+2023-01-29 16:21:47,294 - __main__ - INFO - train epoch 47: step_acc=0.7835, step_acc_hard=0.5588, step_acc_easy=0.8516, acc=0.3478, loss=0.5011
+2023-01-29 16:24:01,984 - __main__ - INFO - valid epoch 47: step_acc=0.6950, step_acc_hard=0.4357, step_acc_easy=0.7746, acc=0.2562, loss=0.8730
+2023-01-29 16:56:07,673 - __main__ - INFO - train epoch 48: step_acc=0.7851, step_acc_hard=0.5560, step_acc_easy=0.8521, acc=0.3513, loss=0.5020
+2023-01-29 16:58:21,998 - __main__ - INFO - valid epoch 48: step_acc=0.7024, step_acc_hard=0.4518, step_acc_easy=0.7818, acc=0.2606, loss=0.8599
+2023-01-29 17:30:27,220 - __main__ - INFO - train epoch 49: step_acc=0.7841, step_acc_hard=0.5565, step_acc_easy=0.8500, acc=0.3503, loss=0.5069
+2023-01-29 17:32:43,760 - __main__ - INFO - valid epoch 49: step_acc=0.7037, step_acc_hard=0.4487, step_acc_easy=0.7826, acc=0.2618, loss=0.8728
+2023-01-29 18:03:59,997 - __main__ - INFO - train epoch 50: step_acc=0.7871, step_acc_hard=0.5612, step_acc_easy=0.8547, acc=0.3493, loss=0.4933
+2023-01-29 18:06:14,084 - __main__ - INFO - valid epoch 50: step_acc=0.7080, step_acc_hard=0.4609, step_acc_easy=0.7824, acc=0.2658, loss=0.8384
+2023-01-29 18:37:49,237 - __main__ - INFO - train epoch 51: step_acc=0.7896, step_acc_hard=0.5693, step_acc_easy=0.8540, acc=0.3584, loss=0.4886
+2023-01-29 18:40:02,473 - __main__ - INFO - valid epoch 51: step_acc=0.6942, step_acc_hard=0.4470, step_acc_easy=0.7672, acc=0.2508, loss=0.8955
+2023-01-29 19:11:06,897 - __main__ - INFO - train epoch 52: step_acc=0.7912, step_acc_hard=0.5681, step_acc_easy=0.8583, acc=0.3654, loss=0.4803
+2023-01-29 19:13:20,533 - __main__ - INFO - valid epoch 52: step_acc=0.6999, step_acc_hard=0.4557, step_acc_easy=0.7740, acc=0.2598, loss=0.9131
+2023-01-29 19:13:20,543 - __main__ - INFO - Changing Learning Rate to 2.5000000000000004e-07
+2023-01-29 19:45:04,291 - __main__ - INFO - train epoch 53: step_acc=0.7883, step_acc_hard=0.5666, step_acc_easy=0.8539, acc=0.3592, loss=0.4877
+2023-01-29 19:47:02,838 - __main__ - INFO - valid epoch 53: step_acc=0.6962, step_acc_hard=0.4540, step_acc_easy=0.7716, acc=0.2592, loss=0.8439
+2023-01-29 20:18:30,576 - __main__ - INFO - train epoch 54: step_acc=0.7895, step_acc_hard=0.5639, step_acc_easy=0.8560, acc=0.3529, loss=0.4890
+2023-01-29 20:20:43,122 - __main__ - INFO - valid epoch 54: step_acc=0.6968, step_acc_hard=0.4438, step_acc_easy=0.7752, acc=0.2592, loss=0.9121
+2023-01-29 20:52:16,380 - __main__ - INFO - train epoch 55: step_acc=0.7903, step_acc_hard=0.5663, step_acc_easy=0.8574, acc=0.3575, loss=0.4844
+2023-01-29 20:54:30,317 - __main__ - INFO - valid epoch 55: step_acc=0.6997, step_acc_hard=0.4355, step_acc_easy=0.7810, acc=0.2568, loss=0.8827
+2023-01-29 21:25:49,297 - __main__ - INFO - train epoch 56: step_acc=0.7899, step_acc_hard=0.5699, step_acc_easy=0.8551, acc=0.3605, loss=0.4875
+2023-01-29 21:28:03,102 - __main__ - INFO - valid epoch 56: step_acc=0.6932, step_acc_hard=0.4317, step_acc_easy=0.7735, acc=0.2478, loss=0.8964
+2023-01-29 22:00:03,035 - __main__ - INFO - train epoch 57: step_acc=0.7907, step_acc_hard=0.5721, step_acc_easy=0.8545, acc=0.3600, loss=0.4912
+2023-01-29 22:02:16,226 - __main__ - INFO - valid epoch 57: step_acc=0.6947, step_acc_hard=0.4422, step_acc_easy=0.7711, acc=0.2476, loss=0.8816
+2023-01-29 22:33:51,212 - __main__ - INFO - train epoch 58: step_acc=0.7900, step_acc_hard=0.5609, step_acc_easy=0.8575, acc=0.3547, loss=0.4888
+2023-01-29 22:36:01,794 - __main__ - INFO - valid epoch 58: step_acc=0.7028, step_acc_hard=0.4439, step_acc_easy=0.7835, acc=0.2512, loss=0.8503
+2023-01-29 23:07:33,489 - __main__ - INFO - train epoch 59: step_acc=0.7950, step_acc_hard=0.5730, step_acc_easy=0.8606, acc=0.3665, loss=0.4736
+2023-01-29 23:09:47,834 - __main__ - INFO - valid epoch 59: step_acc=0.6954, step_acc_hard=0.4419, step_acc_easy=0.7729, acc=0.2478, loss=0.8817
+2023-01-29 23:09:47,843 - __main__ - INFO - Changing Learning Rate to 1.2500000000000003e-08
+2023-01-29 23:41:09,111 - __main__ - INFO - train epoch 60: step_acc=0.7905, step_acc_hard=0.5645, step_acc_easy=0.8581, acc=0.3580, loss=0.4855
+2023-01-29 23:43:16,571 - __main__ - INFO - valid epoch 60: step_acc=0.7008, step_acc_hard=0.4454, step_acc_easy=0.7786, acc=0.2514, loss=0.8609
+2023-01-30 00:14:53,148 - __main__ - INFO - train epoch 61: step_acc=0.7910, step_acc_hard=0.5677, step_acc_easy=0.8579, acc=0.3618, loss=0.4810
+2023-01-30 00:17:08,203 - __main__ - INFO - valid epoch 61: step_acc=0.6972, step_acc_hard=0.4372, step_acc_easy=0.7779, acc=0.2490, loss=0.8962
+2023-01-30 00:48:38,990 - __main__ - INFO - train epoch 62: step_acc=0.7902, step_acc_hard=0.5610, step_acc_easy=0.8566, acc=0.3549, loss=0.4825
+2023-01-30 00:50:49,548 - __main__ - INFO - valid epoch 62: step_acc=0.6912, step_acc_hard=0.4304, step_acc_easy=0.7694, acc=0.2450, loss=0.9009
+2023-01-30 00:50:49,558 - __main__ - INFO - Early stopping after 62 epochs
+2023-01-30 00:50:49,558 - __main__ - INFO - Experiment finished!

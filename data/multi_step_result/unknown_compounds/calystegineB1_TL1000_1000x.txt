@@ -1,0 +1,1 @@
+O[C@@H]1C[C@]2(O)N[C@H]1C[C@@H](O)[C@@H]2O>0.1036>N[C@H]1CC[C@@H](O)[C@@H](O)[C@@H]1O|N[C@H]1CC[C@@H](O)[C@@H](O)[C@@H]1O>0.0959>NC(=O)CC[C@H](N)C(=O)O

@@ -1,0 +1,8 @@
+avenacinA1	C[C@]12CC[C@@H]([C@@]([C@@H]1CC[C@@]3([C@@H]2C[C@@H]4[C@]5([C@]3(C[C@@H]([C@@]6([C@H]5C[C@@]([C@H](C6)OC(=O)C7=CC=CC=C7NC)(C)C=O)C)O)C)O4)C)(C)CO)O[C@H]8[C@@H]([C@H]([C@H](CO8)O[C@H]9[C@@H]([C@H]([C@@H]([C@H](O9)CO)O)O)O)O)O[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O
+momilactoneB	C[C@]1(CC[C@@H]2C(=CC3[C@@H]4[C@]25CCC([C@@]4(C(=O)O3)C)(OC5)O)C1)C=C
+afrormosin	COC1=CC=C(C=C1)C2=COC3=CC(=C(C=C3C2=O)OC)O
+lycosantalonol	CC(=CCCC(C)(C(=O)CCC1(C2CC3C1(C3C2)C)C)O)C
+vincamine	CC[C@@]12CCCN3[C@@H]1C4=C(CC3)C5=CC=CC=C5N4[C@](C2)(C(=O)OC)O
+brucine	COC1=C(C=C2C(=C1)[C@]34CCN5[C@H]3C[C@@H]6[C@@H]7[C@@H]4N2C(=O)C[C@@H]7OCC=C6C5)OC
+diaboline	CC(=O)N1[C@H]2[C@H]3[C@H]4C[C@H]5[C@@]2(CCN5CC4=CCO[C@H]3O)C6=CC=CC=C61
+falcarindiol	CCCCCCC/C=C\[C@@H](C#CC#C[C@@H](C=C)O)O

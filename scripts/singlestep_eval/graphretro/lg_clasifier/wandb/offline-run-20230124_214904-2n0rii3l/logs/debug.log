@@ -1,0 +1,41 @@
+2023-01-24 21:49:04,928 INFO    MainThread:1276749 [wandb_setup.py:_flush():68] Configure stats pid to 1276749
+2023-01-24 21:49:04,929 INFO    MainThread:1276749 [wandb_setup.py:_flush():68] Loading settings from /home/taein/.config/wandb/settings
+2023-01-24 21:49:04,929 INFO    MainThread:1276749 [wandb_setup.py:_flush():68] Loading settings from /home/taein/Retrosynthesis/graphretro/wandb/settings
+2023-01-24 21:49:04,929 INFO    MainThread:1276749 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-01-24 21:49:04,929 INFO    MainThread:1276749 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'scripts/benchmarks/run_model.py', 'program': 'scripts/benchmarks/run_model.py'}
+2023-01-24 21:49:04,929 INFO    MainThread:1276749 [wandb_setup.py:_flush():68] Applying login settings: {'mode': 'offline'}
+2023-01-24 21:49:04,929 INFO    MainThread:1276749 [wandb_init.py:_log_setup():476] Logging user logs to /home/taein/Retrosynthesis/graphretro/experiments/230124_biochem/lg_clasifier/wandb/offline-run-20230124_214904-2n0rii3l/logs/debug.log
+2023-01-24 21:49:04,929 INFO    MainThread:1276749 [wandb_init.py:_log_setup():477] Logging internal logs to /home/taein/Retrosynthesis/graphretro/experiments/230124_biochem/lg_clasifier/wandb/offline-run-20230124_214904-2n0rii3l/logs/debug-internal.log
+2023-01-24 21:49:04,930 INFO    MainThread:1276749 [wandb_init.py:init():516] calling init triggers
+2023-01-24 21:49:04,930 INFO    MainThread:1276749 [wandb_init.py:init():520] wandb.init called with sweep_config: {}
+config: {'model': 'lg_ind', 'mpnn': 'graph_feat', 'rnn_type': 'gru', 'mpn_size': 300, 'depth': 10, 'dropout_mpn': 0.15, 'embed_size': 200, 'mlp_size': 300, 'dropout_mlp': 0.3, 'clip_norm': 10.0, 'scheduler_type': 'plateau', 'metric_thresh': 0.01, 'patience': 5, 'anneal_rate': 0.9, 'lr': 0.001, 'use_rxn_class': False, 'use_h_labels': True, 'use_grad_noise': True, 'use_prev_pred': True, 'print_every': 200, 'eval_every': 700, 'epochs': 1000}
+2023-01-24 21:49:04,930 INFO    MainThread:1276749 [wandb_init.py:init():569] starting backend
+2023-01-24 21:49:04,931 INFO    MainThread:1276749 [wandb_init.py:init():573] setting up manager
+2023-01-24 21:49:04,936 INFO    MainThread:1276749 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-01-24 21:49:04,940 INFO    MainThread:1276749 [wandb_init.py:init():580] backend started and connected
+2023-01-24 21:49:04,947 INFO    MainThread:1276749 [wandb_init.py:init():658] updated telemetry
+2023-01-24 21:49:04,969 INFO    MainThread:1276749 [wandb_init.py:init():727] starting run threads in backend
+2023-01-24 21:49:07,257 INFO    MainThread:1276749 [wandb_run.py:_console_start():1954] atexit reg
+2023-01-24 21:49:07,258 INFO    MainThread:1276749 [wandb_run.py:_redirect():1812] redirect: SettingsConsole.WRAP_RAW
+2023-01-24 21:49:07,258 INFO    MainThread:1276749 [wandb_run.py:_redirect():1877] Wrapping output streams.
+2023-01-24 21:49:07,259 INFO    MainThread:1276749 [wandb_run.py:_redirect():1899] Redirects installed.
+2023-01-24 21:49:07,260 INFO    MainThread:1276749 [wandb_init.py:init():764] run started, returning control to user process
+2023-01-24 21:49:07,261 INFO    MainThread:1276749 [wandb_config.py:__setitem__():148] config set data_dir = /home/taein/Retrosynthesis/graphretro/datasets/biochem - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f11b916b2b0>>
+2023-01-24 21:49:07,261 INFO    MainThread:1276749 [wandb_run.py:_config_callback():1145] config_cb data_dir /home/taein/Retrosynthesis/graphretro/datasets/biochem None
+2023-01-24 21:49:07,262 INFO    MainThread:1276749 [wandb_config.py:__setitem__():148] config set out_dir = /home/taein/Retrosynthesis/graphretro/experiments/230124_biochem/lg_clasifier - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f11b916b2b0>>
+2023-01-24 21:49:07,262 INFO    MainThread:1276749 [wandb_run.py:_config_callback():1145] config_cb out_dir /home/taein/Retrosynthesis/graphretro/experiments/230124_biochem/lg_clasifier None
+2023-01-24 21:49:07,263 INFO    MainThread:1276749 [wandb_config.py:__setitem__():148] config set info_file = biochem.info.kekulized - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f11b916b2b0>>
+2023-01-24 21:49:07,263 INFO    MainThread:1276749 [wandb_run.py:_config_callback():1145] config_cb info_file biochem.info.kekulized None
+2023-01-24 21:49:07,263 INFO    MainThread:1276749 [wandb_config.py:__setitem__():148] config set labels_file = /home/taein/Retrosynthesis/graphretro/datasets/biochem/train/h_labels/lg_groups.txt - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f11b916b2b0>>
+2023-01-24 21:49:07,264 INFO    MainThread:1276749 [wandb_run.py:_config_callback():1145] config_cb labels_file /home/taein/Retrosynthesis/graphretro/datasets/biochem/train/h_labels/lg_groups.txt None
+2023-01-24 21:49:07,264 INFO    MainThread:1276749 [wandb_config.py:__setitem__():148] config set vocab_file = /home/taein/Retrosynthesis/graphretro/datasets/biochem/train/h_labels/lg_vocab.txt - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f11b916b2b0>>
+2023-01-24 21:49:07,264 INFO    MainThread:1276749 [wandb_run.py:_config_callback():1145] config_cb vocab_file /home/taein/Retrosynthesis/graphretro/datasets/biochem/train/h_labels/lg_vocab.txt None
+2023-01-24 21:49:07,265 INFO    MainThread:1276749 [wandb_config.py:__setitem__():148] config set num_shards = 5 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f11b916b2b0>>
+2023-01-24 21:49:07,265 INFO    MainThread:1276749 [wandb_run.py:_config_callback():1145] config_cb num_shards 5 None
+2023-01-24 21:49:07,266 INFO    MainThread:1276749 [wandb_config.py:__setitem__():148] config set num_workers = 32 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f11b916b2b0>>
+2023-01-24 21:49:07,266 INFO    MainThread:1276749 [wandb_run.py:_config_callback():1145] config_cb num_workers 32 None
+2023-01-24 21:49:07,267 INFO    MainThread:1276749 [wandb_config.py:__setitem__():148] config set config_file = configs/lg_ind/defaults.yaml - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f11b916b2b0>>
+2023-01-24 21:49:07,267 INFO    MainThread:1276749 [wandb_run.py:_config_callback():1145] config_cb config_file configs/lg_ind/defaults.yaml None
+2023-01-24 21:49:07,267 INFO    MainThread:1276749 [wandb_config.py:__setitem__():148] config set sweep = False - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f11b916b2b0>>
+2023-01-24 21:49:07,268 INFO    MainThread:1276749 [wandb_run.py:_config_callback():1145] config_cb sweep False None
+2023-01-24 21:49:11,816 WARNING MsgRouterThr:1276749 [router.py:message_loop():77] message_loop has been closed

@@ -1,0 +1,67 @@
+save_data: /path/to/READRetro/scripts/singlestep_eval/bionavi/clean/run
+## Where the vocab(s) will be written
+src_vocab: /path/to/READRetro/scripts/singlestep_eval/bionavi/clean/run/example.vocab.src
+
+# Prevent overwriting existing files in the folder
+overwrite: True
+
+# Corpus opts:
+data:
+    corpus_1:
+        path_src: /path/to/READRetro/scripts/singlestep_eval/bionavi/clean/src-train.txt
+        path_tgt: /path/to/READRetro/scripts/singlestep_eval/bionavi/clean/tgt-train.txt
+    valid:
+        path_src: /path/to/READRetro/scripts/singlestep_eval/bionavi/clean/src-val.txt
+        path_tgt: /path/to/READRetro/scripts/singlestep_eval/bionavi/clean/tgt-val.txt
+
+share_vocab: 'true'
+
+# Train on a single GPU
+world_size: 1
+gpu_ranks: [0]
+
+# Where to save the checkpoints
+save_model: /path/to/READRetro/scripts/singlestep_eval/bionavi/clean/run/model
+save_checkpoint_steps: 10000
+keep_checkpoint: 40
+seed: 42
+
+train_steps: 200000
+param_init: 0.0
+param_init_glorot: 'true'
+max_generator_batches: 32
+
+batch_size: 4096
+batch_type: tokens
+normalization: tokens
+
+optim: adam
+adam_beta1: 0.9
+adam_beta2: 0.998
+decay_method: noam
+warmup_steps: 8000
+learning_rate: 2.0
+label_smoothing: 0.0
+report_every: 1000
+
+max_grad_norm: 0.0
+
+layers: 4
+rnn_size: 256
+word_vec_size: 256
+decoder_type: transformer
+encoder_type: transformer
+
+dropout: 0.1
+
+position_encoding: 'true'
+share_embeddings: 'true'
+
+global_attention: general
+global_attention_function: softmax
+self_attn_type: scaled-dot
+
+heads: 8
+transformer_ff: 2048
+
+master_port: 12975

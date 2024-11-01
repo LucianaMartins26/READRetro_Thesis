@@ -1,0 +1,35 @@
+{
+    "os": "Linux-5.15.0-58-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.3",
+    "heartbeatAt": "2023-01-25T00:22:46.348891",
+    "startedAt": "2023-01-25T00:22:46.279308",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 3,
+    "cpu_count": 64,
+    "cuda": null,
+    "args": [
+        "--config_file",
+        "configs/lg_ind/defaults.yaml",
+        "--data_dir",
+        "/home/taein/Retrosynthesis/graphretro/datasets/biochem",
+        "--out_dir",
+        "/home/taein/Retrosynthesis/graphretro/experiments/230124_biochem/lg_clasifier",
+        "--num_workers",
+        "32",
+        "--info_file",
+        "biochem.info.kekulized"
+    ],
+    "state": "running",
+    "program": "scripts/benchmarks/run_model.py",
+    "codePath": "scripts/benchmarks/run_model.py",
+    "git": {
+        "remote": "https://github.com/vsomnath/graphretro.git",
+        "commit": "bfb1f28bd525b90c5252b96e992546183b5497df"
+    },
+    "email": null,
+    "root": "/home/taein/Retrosynthesis/graphretro",
+    "host": "user-B7129F83AV8E4HR-N",
+    "username": "taein",
+    "executable": "/home/taein/oddments/anaconda3/envs/graphretro/bin/python"
+}
